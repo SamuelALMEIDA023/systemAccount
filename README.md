@@ -43,3 +43,15 @@ O sistema utiliza exceções personalizadas para tratar erros relacionados às o
     Saldo insuficiente: Quando o saldo da conta é menor que o valor do saque.
 
     Limite de saque excedido: Quando o valor do saque é maior que o limite definido para a conta.
+
+
+🗂️ Estrutura do Projeto
+
+Arquitetura de Pastas
+
+    ├── src
+    │   ├── Main.java          # Classe principal
+    │   ├── Account.java       # Classe da conta bancária
+    │   └── DomainAccount.java # Classe de exceção personalizada
+    ├── README.md              # Documentação do projeto
+    └── LICENSE                # Licença do projeto
