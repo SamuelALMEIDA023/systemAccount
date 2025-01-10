@@ -55,3 +55,26 @@ Arquitetura de Pastas
     │   └── DomainAccount.java # Classe de exceção personalizada
     ├── README.md              # Documentação do projeto
     └── LICENSE                # Licença do projeto
+
+
+Classes Principais
+
+1. Account
+
+Esta classe representa a conta bancária e contém:
+
+    Atributos: number, holder, balance, withdrawLimit.
+
+    Métodos:
+
+       deposit(double amount): Adiciona um valor ao saldo.
+
+       withdraw(double amount): Realiza um saque com validações de saldo e limite.
+
+2. DomainAccount
+
+Exceção personalizada para erros relacionados à conta bancária. Extende a classe RuntimeException.
+
+3. Main
+
+Classe principal que executa o sistema, gerencia a entrada de dados e exibe as mensagens ao usuário.
