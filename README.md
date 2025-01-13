@@ -78,3 +78,30 @@ Exceção personalizada para erros relacionados à conta bancária. Extende a cl
 3. Main
 
 Classe principal que executa o sistema, gerencia a entrada de dados e exibe as mensagens ao usuário.
+
+
+🔢 Exemplo de Execução
+
+Entrada
+
+      Enter account 
+      Number: 123
+      Holder: João Silva
+      Initial balance: 500.00
+      Withdraw limit: 300.00
+
+      Enter amount for withdraw: 100.00
+
+Saída
+
+    Withdraw completed successfully.
+
+
+
+📊 Tecnologias Utilizadas
+
+ - Linguagem: Java
+
+ - Paradigma: Programação Orientada a Objetos
+
+ - Tratamento de Exceções
